@@ -1,6 +1,6 @@
-# Assembler Functions
+# Assembler Mixins
 
-A Sass function library built for the
+A Sass mixins library built for the
 [Assembler](https://github.com/chrisopedia/assembler) framework.
 
 ## Table of contents
