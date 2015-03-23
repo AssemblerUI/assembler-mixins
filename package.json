@@ -1,0 +1,37 @@
+{
+  "name": "assembler-mixins",
+  "description": "A Sass mixins library built for the Assembler framework",
+  "author": "2015+ Chris Newton <chrisohpedia@gmail.com> (http://chrisnewton.me/about)",
+  "version": "0.1.0",
+  "keywords": [
+    "assembler",
+    "sass",
+    "library",
+    "mixins"
+  ],
+  "main": [
+    "./dist/_assembler-mixins.scss"
+  ],
+  "maintainers": [
+    "Chris Newton (chrisohpedia@gmail.com) (http://chrisnewton.me/about)"
+  ],
+  "bugs": {
+    "url": "https://github.com/chrisopedia/assembler-mixins/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/chrisopedia/assembler-mixins/blob/master/LICENSE.md"
+  },
+  "devDependencies": {
+    "bower": "^1.3.9",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jekyll": "^0.4.2",
+    "time-grunt": "^1.1.0"
+  }
+}

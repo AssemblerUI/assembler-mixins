@@ -1,0 +1,6 @@
+@mixin disabled( $opacity ) {
+	opacity: $opacity;
+	box-shadow: none;
+	cursor: not-allowed;
+	pointer-events: none;
+}

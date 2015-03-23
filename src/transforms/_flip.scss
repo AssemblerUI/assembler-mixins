@@ -1,0 +1,8 @@
+/*
+ * Flip mixin
+ *
+ */
+@mixin flip( $horizontal, $vertical ) {
+	transform: scale( $horizontal, $vertical );
+}
+

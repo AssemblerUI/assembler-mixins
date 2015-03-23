@@ -1,0 +1,8 @@
+/*
+ * Rotate mixin
+ *
+ * Could be set up to rotate any number of degrees
+ */
+@mixin rotate( $degrees ) {
+	transform: rotate( $degrees );
+}

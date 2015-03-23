@@ -1,0 +1,27 @@
+{
+  "name": "assembler-mixins",
+  "description": "A Sass mixins library built for the Assembler framework",
+  "version": "0.1.0",
+  "keywords": [
+    "assembler",
+    "sass",
+    "library",
+    "mixins"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "/.*",
+    "node_modules",
+    "bower_components",
+    "docs",
+    "tasks",
+    "_config.yml",
+    "browserlist",
+    "Gemfile",
+    "Gemfile.lock",
+    "Gruntfile.js",
+    "CONTRIBUTING.md",
+    "OWNERS.md",
+    "component.json"
+  ]
+}
