@@ -1,6 +1,3 @@
-@import 'positioning';
-@import 'arrow';
-
 @mixin message-box( $type ) {
 	@include absolute( bottom -49px left 10px );
 	box-shadow: 0 5px 5px transparentize( map-get( $colors, black ), 0.5 );
