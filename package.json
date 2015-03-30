@@ -2,7 +2,7 @@
   "name": "assembler-mixins",
   "description": "A Sass mixins library built for the Assembler framework",
   "author": "2015+ Chris Newton <chrisohpedia@gmail.com> (http://chrisnewton.me/about)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "keywords": [
     "assembler",
     "sass",
