@@ -1,7 +1,7 @@
 {
   "name": "assembler-mixins",
   "description": "A Sass mixins library built for the Assembler framework",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "keywords": [
     "assembler",
     "sass",
@@ -9,13 +9,13 @@
     "mixins"
   ],
   "main": [
-    "./dist/styles/_assembler-mixins.scss"
+    "./src/_assembler-mixins.scss"
   ],
   "styles": [
     [
-    "./dist/styles/_assembler-mixins.scss"
+    "./src/_assembler-mixins.scss"
     ]
   ],
-  "demo": "https://chrisopedia.github.io/assembler-mixins",
+  "demo": "https://assemblerui.github.io/assembler-mixins",
   "license": "MIT"
 }

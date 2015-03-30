@@ -1,13 +1,21 @@
 {
   "name": "assembler-mixins",
   "description": "A Sass mixins library built for the Assembler framework",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "keywords": [
     "assembler",
     "sass",
     "library",
     "mixins"
   ],
+  "main": [
+    "./src/_assembler-mixins.scss"
+  ],
+  "homepage": "https://assemblerui.github.io/assembler-mixins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AssemblerUI/assembler-mixins.git"
+  },
   "license": "MIT",
   "ignore": [
     "/.*",
