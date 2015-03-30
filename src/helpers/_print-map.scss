@@ -1,0 +1,48 @@
+/*
+ * Print a Map
+ *
+ * @param: a map
+ *
+ * @return: the contents of the map as a CSS declaration
+ *
+ * Usage
+ * .element {
+ *     @include print((
+ *         margin: 0 auto,
+ *         max-width: 50%,
+ *         overflow: hidden
+ *     ));
+ * }
+ *
+ * Example without use of print()
+ * $configuration: (
+ *     padding: 1em,
+ *     margin: 0 1em,
+ *     color: grey
+ * );
+ * .element {
+ *     color: map-get( $configuration, color );
+ *     padding: map-get( $configuration, padding );
+ *     margin: map-get( $configuration, margin );
+ *
+ *     &::before {
+ *         background-color: map-get( $configuration, color );
+ *     }
+ * }
+ *
+ * Example with use of print()
+ * .element {
+ *     @include print( $configuration );
+ *
+ *     &::before {
+ *         background-color: map-get( $configuration, color );
+ *     }
+ * }
+ */
+
+@mixin print( $declarations ) {
+	@each $property, $value in $declarations {
+		#{$property}: $value
+	}
+}
+
