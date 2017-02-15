@@ -1,5 +1,7 @@
 # Assembler Mixins
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AssemblerUI/assembler-mixins.svg)](https://greenkeeper.io/)
+
 A Sass mixins library built for the
 [Assembler](https://github.com/chrisopedia/assembler) framework.
 
